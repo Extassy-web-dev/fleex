@@ -47,7 +47,7 @@ body {
 }
 
 .head {
-  background-image: url("/img/images/Rectangle.png");
+  background-image: url("./img/images/Rectangle.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 1100px;
@@ -306,7 +306,7 @@ body {
 }
 
 footer {
-  background-image: url("/img/images/rect-footer.png");
+  background-image: url("./img/images/rect-footer.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 685px;
