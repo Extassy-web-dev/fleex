@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+:root {
+  --dark-color: rgb(41, 41, 41);
+  --light-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(221, 158, 76, 0.664);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(221, 144, 44, 0.664);
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.head {
+  background-image: url("/img/images/Rectangle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1100px;
+  padding: 150px 0;
+}
+.head .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .top .left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.head .top .left img {
+  width: 55px;
+}
+.head .top .left h1 {
+  font-size: 30px;
+  color: #FFF9EE;
+}
+.head .top .right button {
+  width: 80px;
+  height: 40px;
+  color: #FFF9EE;
+  border: 2px solid #FFF9EE;
+  background: none;
+  border-radius: 5px;
+}
+.head .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 800px;
+  padding: 200px 0 100px;
+}
+.head .bottom h1 {
+  font-size: 78px;
+  color: white;
+}
+.head .bottom p {
+  width: 450px;
+  font-size: 22px;
+  line-height: 37.4px;
+  color: white;
+}
+.head .bottom button {
+  width: 197px;
+  height: 56px;
+  background: #DD9D4C;
+  border-radius: 4px;
+  color: white;
+  border-style: none;
+}
+
+.icons__box {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  padding: 0 0 40px;
+}
+.icons__box img {
+  cursor: pointer;
+}
+
+.title {
+  background-color: rgb(246, 241, 236);
+}
+.title .elems__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title .elems__box .elems__elemText {
+  display: flex;
+  margin-left: 300px;
+  width: 600px;
+  flex-direction: column;
+  gap: 20px;
+}
+.title .elems__box .elems__elemText h1 {
+  color: #1A0800;
+  font-family: Roboto;
+  font-size: 43px;
+  line-height: 56px;
+}
+.title .elems__box .elems__elemText p {
+  color: rgba(26, 8, 0, 0.7);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 27.2px;
+}
+.title .elems__box .elems__elemText button {
+  width: 197px;
+  height: 56px;
+  background-color: rgb(221, 157, 76);
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+}
+.title .elems__box .elems__elemImg {
+  padding: 100px 0;
+}
+
+.elems__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.elems__box .elems__elemText-1 {
+  display: flex;
+  margin-right: 600px;
+  width: 600px;
+  flex-direction: column;
+  gap: 20px;
+}
+.elems__box .elems__elemText-1 h1 {
+  color: #1A0800;
+  font-family: Roboto;
+  font-size: 43px;
+  line-height: 56px;
+}
+.elems__box .elems__elemText-1 p {
+  color: rgba(26, 8, 0, 0.7);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 27.2px;
+}
+.elems__box .elems__elemText-1 button {
+  width: 197px;
+  height: 56px;
+  background-color: rgb(221, 157, 76);
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+}
+.elems__box .elems__elemImg {
+  padding: 100px 0;
+}
+
+.message {
+  background-color: rgb(249, 246, 243);
+}
+.message .mess__box {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+}
+.message .mess__elem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+}
+.message .mess__elem h1 {
+  color: #1A0800;
+  font-family: Roboto;
+  font-size: 43px;
+  line-height: 56px;
+}
+.message .mess__elem p {
+  color: rgba(26, 8, 0, 0.7);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 27.2px;
+}
+.message .mess__elem button {
+  width: 197px;
+  height: 56px;
+  background-color: rgb(221, 157, 76);
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.set-yurself {
+  width: 473px;
+  color: #1A0800;
+  font-family: Roboto;
+  font-size: 50px;
+  line-height: 58px;
+  text-align: left;
+  padding: 100px 0;
+}
+
+.box__elems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+.box__elems .elements {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box__elems .elements .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.box__elems .elements .text p:nth-child(1) {
+  color: #1A0800;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 27.2px;
+}
+.box__elems .elements .text p:nth-child(2) {
+  color: rgba(26, 8, 0, 0.7);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 27.2px;
+}
+.box__elems .elements img {
+  width: 50px;
+}
+
+.sect-bottom {
+  background-color: rgb(233, 219, 209);
+}
+.sect-bottom .elm_box {
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.sect-bottom .elm_box h1 {
+  color: #1A0800;
+  font-family: Roboto;
+  font-size: 43px;
+  line-height: 56px;
+}
+.sect-bottom .elm_box .elm_element {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sect-bottom .elm_box .elm_element div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.sect-bottom .elm_box .elm_element div p {
+  color: black;
+}
+.sect-bottom .elm_box .elm_element p {
+  color: rgba(26, 8, 0, 0.7);
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 27.2px;
+}
+
+footer {
+  background-image: url("/img/images/rect-footer.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 685px;
+}
+footer .box_foot {
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+footer .box_foot .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .box_foot .logo h1 {
+  font-size: 30px;
+  color: #FFF9EE;
+}
+footer .box_foot p {
+  width: 339px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 32px;
+}
+footer .box_foot .lang {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .box_foot .politcs {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 22.1px;
+}/*# sourceMappingURL=style.css.map */
